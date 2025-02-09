@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# Eplay - Loja de Jogos Online
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
+Loja de Jogos Online é uma aplicação de **e-commerce** focada na venda de jogos digitais. Os usuários podem navegar por uma lista de jogos em promoção e, em breve, adicionar itens ao carrinho e finalizar a compra.
 
-## Available Scripts
+Este é um **projeto de estudo**, desenvolvido para praticar conceitos avançados de React, Redux Toolkit e TypeScript.
 
-In the project directory, you can run:
+A aplicação utiliza **Redux Toolkit** para gerenciamento centralizado de estado, incluindo funcionalidades como carrinho de compras e integração com APIs. A navegação entre páginas é feita com **React Router**, proporcionando uma experiência fluida e intuitiva para o usuário.
 
-### `npm start`
+O fluxo principal da aplicação abrange três etapas:
+1. **Listagem de Jogos** - Exibe jogos em promoção e jogos que serão lançados em breve.
+2. **Carrinho** - Adição, remoção e gerenciamento de itens no carrinho.
+3. **Checkout** - Finalização da compra.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Styled Components são utilizados para estilização modular, e **RTK Query** gerencia o consumo de APIs, permitindo obter dados dos jogos com feedback em tempo real.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tecnologias Utilizadas
+- React
+- Redux Toolkit
+- RTK Query
+- React Router
+- TypeScript
+- Styled Components
 
-### `npm test`
+## Instalação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/loja-jogos.git
+   ```
+2. Acesse o diretório do projeto:
+   ```sh
+   cd loja-jogos
+   ```
 
-### `npm run build`
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como Executar
+Para iniciar o projeto em ambiente de desenvolvimento, utilize o seguinte comando:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Licença
+Este projeto está sob a licença MIT. Para mais detalhes, consulte o arquivo LICENSE.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
